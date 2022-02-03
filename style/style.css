@@ -55,11 +55,65 @@ nav a{
 main{
     display: flex;
     align-items: center;
-    color: white;
+    color: white;  
 }
-section{
+main section{
     background-color: rgb(14,14,116);
+    width: 100%;
 }
+/*Footer*/
+footer{
+    background-color:rgb(255, 242, 59);
+    height:250px;
+    color:rgb(14, 14, 116);
+    margin-top: 10%;
+}
+
+footer p{
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+footer h3{
+    font-size: 1.2rem;
+    padding: 1%;
+}
+.footerFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* justify-content: flex-end;  SI SE LO APLICO NO ME APLICA EL ESPACIO*/
+    
+}
+.index{
+    height: 200px;
+}
+/*Novedades*/
+.novedadesFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.portada{
+    background-image: url(../img/collage.jpg);
+    text-align:center;
+    background-color: rgb(14, 14, 116);
+    color: white;
+    padding-top: 25%;
+    font-size: 1.5rem;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(14, 14, 116);
+    color: white;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
 
 /* grilla deportes*/
 .grillaDeportes{
@@ -78,12 +132,9 @@ section{
 }
 .item-d{
     grid-area: item-d;
-    
-
 }
 .item-f{
-    grid-area: item-f;
-    
+    grid-area: item-f;   
 }
 .item-h{
     grid-area: item-h;
