@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+    background-color: rgb(10,10,93);
+    height: 15vh;
+    font-size: 1.5rem;
+    position: fixed;
+    width: 100%;
+}
+
+nav a{
+    color:rgb(255, 242, 59) ;
+    text-decoration: none; 
+    background-color: rgb(14,14,116);
+}
+
+.menu{
+    margin-top: 3%;
+    background-color: rgb(10,10,93);  
+    height: 40px;
+    width: 100px;
+}
+
+.menu :hover{
+    background-color: rgb(14,14,116);
+    color: white;    
+}
+
+.logo{
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+}
+
+.menuFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
