@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+/*Parte General*/
+
 body{
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,4 +51,61 @@ nav a{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+}
+main{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+section{
+    background-color: rgb(14,14,116);
+}
+
+/* grilla deportes*/
+.grillaDeportes{
+    display: grid;
+    grid-template-areas:
+    "item-d item-d item-d"
+    "item-f item-h item-t"
+    "item-v item-p item-n" ;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 20% auto auto;
+    padding-top: 10%;
+}
+.item-d{
+    grid-area: item-d;
+    
+
+}
+.item-f{
+    grid-area: item-f;
+    
+}
+.item-h{
+    grid-area: item-h;
+}
+.item-t{
+    grid-area: item-t;
+}
+.item-v{
+    grid-area: item-v;
+}
+.item-p{
+    grid-area: item-p;
+}
+.item-n{
+    grid-area: item-n;
+}
+
+/*Deportes*/
+.deporteImg{
+    height: 18rem;
+    width: 18rem;
+}
+.info{
+    color: white;
 }
